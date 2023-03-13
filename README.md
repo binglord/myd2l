@@ -11,6 +11,7 @@ conda create --name myd2l python=3.9 -y
 conda activate myd2l
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 pip install d2l==0.17.6
+pip install pandas # 数据预处理
 # jupyter notebook 绑定 conda env
 conda install -c conda-forge ipykernel
 python -m ipykernel install --user --name=myd2l # 绑定环境myd2l
